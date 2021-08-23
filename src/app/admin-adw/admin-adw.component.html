@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <label for="contractId">Contract id</label>
+      <input type="number" class="form-control" [(ngModel)]="contractId" id="contractId" placeholder="contractId">
+      <label for="day">day</label>
+      <input type="number" class="form-control" [(ngModel)]="day" id="day" placeholder="day">
+      <label for="descriptionUz" class="form-control">descriptionUz</label>
+      <input type="text" class="form-control" [(ngModel)]="descriptionUz" id="descriptionUz" placeholder="descriptionUz">
+      <label for="descriptionRu">descriptionRu</label>
+      <input type="text" class="form-control" [(ngModel)]="descriptionRu" id="descriptionRu" placeholder="descriptionRu">
+      <label for="price" class="form-control">price</label>
+      <input type="number" class="form-control" [(ngModel)]="price" id="price" placeholder="price">
+      <label for="name">name</label>
+      <input type="text" class="form-control" [(ngModel)]="name" id="name" placeholder="name">
+      <label for="type">type</label>
+      <select id="type" class="form-control" [(ngModel)]="type">
+        <option value="SOCIAL_NETWORK">SOCIAL_NETWORK</option>
+        <option value="WEB_SITE">WEB_SITE</option>
+        <option value="MAGAZINE">MAGAZINE</option>
+        <option value="OUTER_ADVERTISING">OUTER_ADVERTISING</option>
+      </select>
+    <button (click)="save()" class="btn btn-danger">save</button>
+    </div>
+  </div>
+</div>

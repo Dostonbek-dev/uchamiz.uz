@@ -1,0 +1,27 @@
+.box {
+  color: #e0ac1c;
+}
+.container .row h3{
+  margin-top: 24px;
+  margin-bottom: 40px;
+  font-family:'Cookie', cursive;
+  color: #e0ac1c;
+}
+.container{
+  font-family:'Cookie', cursive;
+  color: #e0ac1c;
+}
+.container select{
+  color: #e0ac1c;
+}
+.container select option{
+  width: 100px!important;
+}
+
+label{
+  font-size: 18px;
+}
+.box select option {
+  padding: 30px;
+}
+
